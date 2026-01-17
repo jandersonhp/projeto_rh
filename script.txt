@@ -1,0 +1,22 @@
+const form = document.getElementById("formRequisicao");
+const resultado = document.getElementById("resultado");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const uca = document.getElementById("uca").value;
+  const setor = document.getElementById("setor").value;
+  const turno = document.getElementById("turno").value;
+  const tipo = document.getElementById("tipo").value;
+
+  resultado.innerHTML = `
+    <strong>Requisição registrada (protótipo)</strong><br><br>
+    <strong>Matrícula:</strong> ${uca}<br>
+    <strong>Setor:</strong> ${setor}<br>
+    <strong>Turno:</strong> ${turno}<br>
+    <strong>Tipo:</strong> ${tipo}<br><br>
+    Status: Aguardando análise do RH
+  `;
+
+  form.reset();
+});

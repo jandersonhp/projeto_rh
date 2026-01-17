@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisição ao RH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Requisição ao RH</h1>
+    <p>Protótipo demonstrativo — fluxo de abertura de chamados.</p>
+
+    <form id="formRequisicao">
+
+      <h3>Dados do colaborador</h3>
+
+      <label>Matrícula (UCA)</label>
+      <input type="text" id="uca" required>
+
+      <label>Setor</label>
+      <input type="text" id="setor" required>
+
+      <label>Turno</label>
+      <select id="turno" required>
+        <option value="">Selecione</option>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Madrugada</option>
+      </select>
+
+      <h3>Solicitação</h3>
+
+      <label>Tipo de solicitação</label>
+      <select id="tipo" required>
+        <option value="">Selecione</option>
+        <option>Holerite</option>
+        <option>Benefícios</option>
+        <option>Empréstimo</option>
+        <option>Férias</option>
+        <option>Outros</option>
+      </select>
+
+      <label>Descrição</label>
+      <textarea id="descricao" required></textarea>
+
+      <label>Anexo (opcional)</label>
+      <input type="file">
+
+      <button type="submit">Enviar requisição</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
