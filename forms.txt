@@ -1,0 +1,81 @@
+Título da ideia
+
+Sistema de Requisições ao RH para Atendimento do Turno da Madrugada
+
+Contexto e problema
+
+No turno da madrugada, o contato com o RH é limitado, pois o RH não está presente todos os dias nesse horário. Com isso, dúvidas e pendências simples acabam demorando para serem resolvidas, como holerite, descontos, benefícios, empréstimos e outras demandas administrativas.
+
+Hoje existe um aplicativo para solicitações como férias, abonos e atestados, porém ele não atende bem esse tipo de demanda administrativa e de orientação, nem permite um acompanhamento claro de tratativa e prazo. Isso gera insegurança para o colaborador e retrabalho para a liderança.
+
+Ideia / Solução proposta
+
+Criar um sistema de requisições ao RH, no formato de abertura de chamados, onde o colaborador possa:
+
+Se identificar (matrícula/UCA, setor e turno)
+
+Abrir uma solicitação categorizada (holerite, benefícios, empréstimo, etc.)
+
+Descrever a demanda
+
+Anexar documentos
+
+Acompanhar a resposta, status e prazo de tratativa do RH
+
+Essa solução é especialmente importante para o turno da madrugada, onde o suporte presencial é reduzido.
+
+Funcionamento resumido
+
+O colaborador informa seus dados (UCA, setor, turno)
+
+Abre um chamado selecionando o tipo de solicitação
+
+Descreve a situação e anexa documentos, se necessário
+
+O RH recebe a demanda, analisa e responde com a tratativa ou prazo
+
+O chamado fica registrado até a conclusão
+
+Exemplo prático
+
+Solicitação:
+“Meu holerite apresenta um desconto que considero indevido.”
+(Anexo: holerite)
+
+Resposta do RH:
+
+Desconto incorreto → ajuste e reembolso no próximo pagamento
+ou
+
+Desconto devido → explicação do motivo do desconto
+
+Protótipo da ideia (referência visual)
+
+Protótipo online (GitHub Pages):
+👉 https://jandersonhp.github.io/projeto_rh/
+
+Observação:
+O site disponibilizado é apenas um protótipo demonstrativo, criado para ilustrar a ideia e o fluxo de uso.
+Para utilização real, seria necessária a implementação de um backend, responsável por:
+
+autenticação dos colaboradores
+
+recebimento e gestão das requisições pelo RH
+
+upload e armazenamento de anexos
+
+fila de chamados
+
+controle de status e prazos
+
+Benefícios
+
+Melhora a comunicação entre RH e colaboradores da madrugada
+
+Centraliza e organiza as demandas
+
+Gera histórico e rastreabilidade
+
+Reduz retrabalho e ruídos de comunicação
+
+Aumenta a transparência e a segurança para o colaborador
