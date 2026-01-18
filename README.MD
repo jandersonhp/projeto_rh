@@ -1,58 +1,82 @@
-# Sistema de Requisições ao RH – Turno da Madrugada
+# Projeto RH – Canal de Requisições (Protótipo)
 
-## Contexto
+Este projeto é um **protótipo conceitual** que demonstra a ideia de um canal de atendimento ao RH via abertura de chamados, com foco nas necessidades do terceiro turno.
 
-No turno da madrugada, o contato com o RH é limitado, pois o RH não está presente diariamente nesse horário.  
-Com isso, dúvidas simples acabam demorando para serem resolvidas, como:
-
-- Holerite
-- Descontos considerados indevidos
-- Benefícios
-- Empréstimos
-- Dúvidas administrativas em geral
-
-Hoje existe um aplicativo para solicitações como férias, abonos e atestados, mas ele não atende bem esse tipo de demanda consultiva ou administrativa.
+⚠️ **Importante:**  
+Este site **não é um sistema funcional** e **não possui backend**. Ele existe apenas para ilustrar a ideia, o fluxo e a experiência do usuário.
 
 ---
 
-## Ideia
+## 🎯 Objetivo
 
-Criar um **sistema de requisições ao RH**, no formato de abertura de chamados, onde o colaborador possa:
-
-- Registrar sua solicitação ou dúvida
-- Selecionar o tipo de assunto
-- Anexar documentos (ex: holerite)
-- Acompanhar a resposta e o prazo de tratativa do RH
-
-Essa solução atende especialmente o turno da madrugada, onde o suporte presencial é reduzido.
+Demonstrar como poderia funcionar um canal simples de comunicação entre colaboradores e o RH, permitindo:
+- abertura de requisições
+- anexos de documentos
+- acompanhamento de status
+- retorno formal do RH
 
 ---
 
-## Funcionamento (visão geral)
+## 🧩 Contexto do Problema
 
-1. Colaborador abre uma requisição
-2. Escolhe o tipo (holerite, benefícios, empréstimo, etc.)
-3. Descreve a situação
-4. Anexa documentos, se necessário
-5. RH responde com a tratativa ou prazo
-6. Colaborador acompanha o status do chamado
+No terceiro turno, o RH nem sempre está disponível presencialmente, o que gera:
+- dificuldade para tirar dúvidas simples
+- interrupções na produção
+- falta de formalização em tratativas administrativas
 
----
-
-## Exemplo
-
-**Solicitação:**  
-“Meu holerite apresenta um desconto que considero indevido.”  
-(Anexo: holerite)
-
-**Resposta do RH:**  
-- Desconto incorreto → ajuste e reembolso no próximo pagamento  
-ou  
-- Desconto devido → explicação detalhada do motivo
+Este protótipo busca ilustrar uma solução simples e eficiente para esse cenário.
 
 ---
 
-## Objetivo do projeto
+## 🖥️ O que este protótipo simula
 
-Este repositório contém um **protótipo simples** apenas para demonstrar a ideia e o fluxo básico de uso.  
-Não representa um sistema final ou integrado.
+- Identificação do colaborador (**simulação**):
+  - Matrícula (UCA)
+  - Setor
+  - Turno
+
+- Abertura de requisição ao RH
+- Simulação de fluxo de status:
+  - Recebido pelo RH
+  - Em análise
+  - Respondido
+
+Tudo feito apenas com **HTML, CSS e JavaScript**, sem banco de dados.
+
+---
+
+## 🚫 O que este projeto NÃO faz
+
+- Não possui autenticação real
+- Não envia notificações
+- Não armazena dados
+- Não envia anexos de verdade
+- Não substitui sistemas oficiais de RH
+
+Para uso real, seria necessário:
+- backend
+- controle de acesso
+- integração com e-mail ou sistema interno
+- fila de atendimento do RH
+
+---
+
+## 🌐 Demonstração
+
+🔗 GitHub Pages (protótipo):  
+https://jandersonhp.github.io/projeto_rh/
+
+🔗 Repositório:  
+https://github.com/jandersonhp/projeto_rh
+
+---
+
+## 🤝 Observação final
+
+Este projeto foi desenvolvido com apoio de **Inteligência Artificial** apenas como ferramenta de apoio para estruturar o protótipo visual.
+
+Caso a ideia avance, me coloco à disposição para:
+- acompanhar o projeto
+- adaptar às necessidades reais da empresa
+- manter a solução humana, simples e funcional
+

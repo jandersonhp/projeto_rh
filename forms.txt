@@ -1,81 +1,71 @@
 Título da ideia
+Canal de Requisições ao RH para o Terceiro Turno (via abertura de chamados)
 
-Sistema de Requisições ao RH para Atendimento do Turno da Madrugada
+Contexto
+Atualmente, colaboradores do terceiro turno enfrentam dificuldade para contato com o RH, já que a presença física ocorre poucos dias na semana e, muitas vezes, fora do horário do T3.
+Isso gera interrupções na produção, deslocamentos desnecessários e falta de formalização em dúvidas simples, como holerite, consignado, férias, descontos e benefícios.
 
-Contexto e problema
+Problema identificado
+Hoje, usamos aplicativos e portais de RH terceirizados que atendem solicitações padrão, mas não resolvem bem dúvidas específicas ou tratativas simples do dia a dia.
+No terceiro turno, isso se agrava porque:
 
-No turno da madrugada, o contato com o RH é limitado, pois o RH não está presente todos os dias nesse horário. Com isso, dúvidas e pendências simples acabam demorando para serem resolvidas, como holerite, descontos, benefícios, empréstimos e outras demandas administrativas.
+não há RH disponível no horário
 
-Hoje existe um aplicativo para solicitações como férias, abonos e atestados, porém ele não atende bem esse tipo de demanda administrativa e de orientação, nem permite um acompanhamento claro de tratativa e prazo. Isso gera insegurança para o colaborador e retrabalho para a liderança.
+muitas dúvidas ficam sem retorno
+
+colaboradores acabam parando a produção para tentar resolver assuntos administrativos
+
+não existe histórico formal de tratativa para questões simples
 
 Ideia / Solução proposta
+Criar um canal de atendimento ao RH via requisições (abertura de chamados), onde o colaborador possa registrar sua dúvida ou solicitação, anexar documentos e acompanhar a tratativa.
 
-Criar um sistema de requisições ao RH, no formato de abertura de chamados, onde o colaborador possa:
+A proposta é simples e escalável:
 
-Se identificar (matrícula/UCA, setor e turno)
+abertura de chamado com categoria (holerite, consignado, férias, benefício, etc.)
 
-Abrir uma solicitação categorizada (holerite, benefícios, empréstimo, etc.)
+anexo de documentos (ex: holerite)
 
-Descrever a demanda
+retorno do RH com explicação ou prazo
 
-Anexar documentos
+acompanhamento por status (Recebido → Em análise → Respondido)
 
-Acompanhar a resposta, status e prazo de tratativa do RH
+Esse modelo já é utilizado em outras empresas e funciona muito bem para formalizar tratativas simples sem impactar a operação.
 
-Essa solução é especialmente importante para o turno da madrugada, onde o suporte presencial é reduzido.
+Protótipo (apenas conceitual)
+Desenvolvi um protótipo visual para ilustrar a ideia e facilitar o entendimento do fluxo.
+O site não possui backend e não é um sistema funcional, servindo apenas como demonstração do conceito.
 
-Funcionamento resumido
+🔗 Protótipo (GitHub Pages):
+https://jandersonhp.github.io/projeto_rh/
 
-O colaborador informa seus dados (UCA, setor, turno)
+🔗 Repositório do projeto (GitHub):
+https://github.com/jandersonhp/projeto_rh
 
-Abre um chamado selecionando o tipo de solicitação
+No protótipo há:
 
-Descreve a situação e anexa documentos, se necessário
+simulação de identificação do colaborador (turno, matrícula/UCA, setor)
 
-O RH recebe a demanda, analisa e responde com a tratativa ou prazo
+abertura de requisição
 
-O chamado fica registrado até a conclusão
+simulação de status da tratativa
 
-Exemplo prático
+Observações importantes
 
-Solicitação:
-“Meu holerite apresenta um desconto que considero indevido.”
-(Anexo: holerite)
+O protótipo foi desenvolvido com apoio de IA apenas para acelerar a construção da ideia.
 
-Resposta do RH:
+Caso a ideia avance, me coloco totalmente à disposição para acompanhar, adaptar e manter o projeto, garantindo que ele seja implementado de forma original, humana e alinhada à realidade da empresa.
 
-Desconto incorreto → ajuste e reembolso no próximo pagamento
-ou
+A solução real exigiria backend, controle de acesso, notificações e fila de atendimento do RH.
 
-Desconto devido → explicação do motivo do desconto
+Benefícios esperados
 
-Protótipo da ideia (referência visual)
+Menos interrupções na produção
 
-Protótipo online (GitHub Pages):
-👉 https://jandersonhp.github.io/projeto_rh/
+Melhor comunicação entre RH e terceiro turno
 
-Observação:
-O site disponibilizado é apenas um protótipo demonstrativo, criado para ilustrar a ideia e o fluxo de uso.
-Para utilização real, seria necessária a implementação de um backend, responsável por:
+Formalização de tratativas simples
 
-autenticação dos colaboradores
+Histórico de atendimentos
 
-recebimento e gestão das requisições pelo RH
-
-upload e armazenamento de anexos
-
-fila de chamados
-
-controle de status e prazos
-
-Benefícios
-
-Melhora a comunicação entre RH e colaboradores da madrugada
-
-Centraliza e organiza as demandas
-
-Gera histórico e rastreabilidade
-
-Reduz retrabalho e ruídos de comunicação
-
-Aumenta a transparência e a segurança para o colaboradorg
+Mais transparência e organização
