@@ -2,18 +2,30 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Requisição ao RH</title>
+  <title>Requisições ao RH</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
+
+    <div class="alert">
+      Protótipo demonstrativo – fluxo conceitual.
+      Não integrado a sistemas internos ou bases corporativas.
+    </div>
+
     <h1>Requisição ao RH</h1>
-    <p>Protótipo demonstrativo — fluxo de abertura de chamados.</p>
+    <p class="subtitle">
+      Simulação de abertura de chamados administrativos para colaboradores,
+      com foco no turno da madrugada.
+    </p>
 
     <form id="formRequisicao">
 
-      <h3>Dados do colaborador</h3>
+      <h3>Identificação do colaborador (simulação)</h3>
+      <p class="hint">
+        Em ambiente real, a autenticação seria automática via sistema corporativo (AD / login interno).
+      </p>
 
       <label>Matrícula (UCA)</label>
       <input type="text" id="uca" required>
@@ -29,28 +41,30 @@
         <option>Madrugada</option>
       </select>
 
-      <h3>Solicitação</h3>
+      <h3>Solicitação ao RH</h3>
 
       <label>Tipo de solicitação</label>
       <select id="tipo" required>
         <option value="">Selecione</option>
         <option>Holerite</option>
         <option>Benefícios</option>
-        <option>Empréstimo</option>
+        <option>Empréstimo / Consignado</option>
         <option>Férias</option>
         <option>Outros</option>
       </select>
 
-      <label>Descrição</label>
-      <textarea id="descricao" required></textarea>
+      <label>Descrição da solicitação</label>
+      <textarea id="descricao" placeholder="Descreva sua dúvida ou solicitação..." required></textarea>
 
       <label>Anexo (opcional)</label>
       <input type="file">
 
       <button type="submit">Enviar requisição</button>
+
     </form>
 
     <div id="resultado"></div>
+
   </div>
 
   <script src="script.js"></script>
